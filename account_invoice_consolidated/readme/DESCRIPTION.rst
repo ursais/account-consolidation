@@ -33,8 +33,8 @@ Company3 - Create consolidated invoice
 
 Nothing happens but selection of company1 and company2 invoices.
 
-Company3 - Validate consolidated invoice
-----------------------------------------
+Company3 - Click on Consolidate
+-------------------------------
 
 Payment of company1's invoice - In company1 using due from payment method
 
@@ -56,16 +56,16 @@ Payment of company2's invoice - In company2 using due from payment method
 | Due From              | Company3    |                   |     121 |         |
 +-----------------------+-------------+-------------------+---------+---------+
 
-Create manual journal entry in company3
+Creation of company3's invoice - In company3
 
 +-----------------------+-------------+-------------------+---------+---------+
 | Account               | Partner     | Reconciliation    | Debit   | Credit  |
 +=======================+=============+===================+=========+=========+
+| Accounts Receivables  | Customer    | R3                |     221 |         |
++-----------------------+-------------+-------------------+---------+---------+
 | A/R Due To            | Company1    |                   |         |     100 |
 +-----------------------+-------------+-------------------+---------+---------+
 | A/R Due To            | Company2    |                   |         |     121 |
-+-----------------------+-------------+-------------------+---------+---------+
-| Accounts Receivables  | Customer    | R3                |     221 |         |
 +-----------------------+-------------+-------------------+---------+---------+
 
 ----------------
